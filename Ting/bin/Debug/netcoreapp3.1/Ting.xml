@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ting</name>
+    </assembly>
+    <members>
+        <member name="M:Ting.Controllers.TingController.GetPlayUrl(System.String)">
+            <summary>
+            获取播放改地址
+            </summary>
+            <param name="moudle"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ting.Controllers.TingController.Search(System.String)">
+            <summary>
+            搜索书籍
+            </summary>
+            <param name="bookname">书名</param>
+            <returns></returns>
+        </member>
+        <member name="M:Ting.Controllers.WeatherForecastController.Get">
+            <summary>
+            获取天天
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Ting.Models.Catalog">
+            <summary>
+            目录
+            </summary>
+        </member>
+        <member name="P:Ting.Models.Catalog.link">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ting.Models.BookInfo.bookname">
+            <summary>
+            书名
+            </summary>
+        </member>
+        <member name="P:Ting.Models.BookInfo.link">
+            <summary>
+            地址
+            </summary>
+        </member>
+        <member name="P:Ting.Models.BookInfo.anthor">
+            <summary>
+            作者
+            </summary>
+        </member>
+        <member name="P:Ting.Models.BookInfo.announcer">
+            <summary>
+            播音员
+            </summary>
+        </member>
+        <member name="P:Ting.Models.BookInfo.desc">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="T:Ting.Util.TingClient">
+            <summary>
+            请求器
+            </summary>
+        </member>
+        <member name="M:Ting.Util.TingClient.Get(System.String)">
+            <summary>
+            Get
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Ting.Util.TingClient.GetEncodingByContent(System.String)">
+            <summary>
+            根据返回文档获取编码
+            </summary>
+            <param name="content"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ting.Util.TingClient.UrlEncode(System.String,System.Text.Encoding)">
+            <summary>
+            使用指定的编码 <see cref="T:System.Text.Encoding"/> 对 URL 进行编码
+            </summary>
+            <param name="url">要编码的地址</param>
+            <param name="encoding">编码类型,默认UTF-8</param>
+            <returns>编码后的地址</returns>
+        </member>
+        <member name="M:Ting.Util.TingClient.UrlDecode(System.String,System.Text.Encoding)">
+            <summary>
+            使用指定的编码 <see cref="T:System.Text.Encoding"/> 对 URL 进行解码
+            </summary>
+            <param name="url">要解码的地址</param>
+            <param name="encoding">编码类型 默认UTF-8</param>
+            <returns>编码后的地址</returns>
+        </member>
+    </members>
+</doc>
