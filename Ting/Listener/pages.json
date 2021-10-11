@@ -1,0 +1,55 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首 页",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/index/self",
+			"style": {
+				"navigationBarTitleText": "我 的",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/book/catalog",
+			"style": {
+				//"navigationBarTitleText": "11",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/player/player",
+			"style": {
+				//"navigationBarTitleText": "play",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#E0E0E0",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [{
+				"text": "",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/index.png",
+				"selectedIconPath": "static/index-active.png"
+			},
+			{
+				"text": "",
+				"pagePath": "pages/index/self",
+				"iconPath": "static/my.png",
+				"selectedIconPath": "static/my-active.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "TIng",
+		"navigationBarBackgroundColor": "#48da00",
+		"backgroundColor": "#F8F8F8"
+	}
+}
